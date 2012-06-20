@@ -1,0 +1,86 @@
+/* Ixquick Cleaner.safariextension
+/  by Luke Hagan <lukehagan.com>
+/  created: 2012-06-18
+/  released under the MIT license (see LICENSE.md for details) */
+
+#sponsored, 
+#results_header #logo,
+#enhanced,
+#detail,
+#tod_wrap,
+.date_promo,
+#search_footer table tbody tr:nth-child(n+2),
+#show_hide,
+#submit1 { 
+	display: none !important;
+}
+
+.air, html { 
+    background-image: none !important;
+}
+
+#query_top {
+    border: 10px solid #EBEBEB !important;
+    -webkit-border-radius: none !important;
+    border-radius: 10px !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background: white !important;
+    height: 40px !important;
+    font-family: Helvetica, Arial, sans-serif !important;
+    font-size: 30px !important;
+}
+
+#results_count_p {
+    color: rgb(102, 102, 102) !important;
+}
+
+#body {
+    font-family: Helvetica, Arial, sans-serif !important;
+}
+
+a {
+    color: #4f85c5 !important;
+    text-decoration: none !important;
+}
+
+a:visited {
+    color: #ab82bd !important;
+}
+
+#results, #side_bar ul {
+    border: none !important;
+}
+
+#side_bar {
+    position: relative !important;    
+}
+
+#results .result {
+    width: 800px !important;
+    padding-right: 10px !important;
+    cursor: hand;
+    cursor: pointer;
+}
+
+#results .result:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#results .result h3 a {
+    font-size: 20px !important;
+}
+
+#results .result .url {
+    color: #999 !important;
+}
+
+#results .result .proxy {
+    color: #999 !important;
+}
+
+#results .result p.desc {
+    color: rgb(102, 102, 102) !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+}
